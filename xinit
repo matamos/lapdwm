@@ -1,0 +1,6 @@
+picom &
+sxhkd &
+xwallpaper --zoom Downloads/Wallpapers/Evangelion1.jpg &
+slstatus &
+exec dwm 
+

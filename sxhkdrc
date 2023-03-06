@@ -1,0 +1,27 @@
+#Brightdown
+XF86MonBrightnessDown
+  brillo -q -U 10
+#Brightup
+XF86MonBrightnessUp
+  brillo -q -A 10
+
+#Filemanager
+F5
+  st  ranger
+
+#mute
+XF86AudioMute
+  pulsemixer --toggle
+#Vol Up
+XF86AudioRaiseVolume
+ pulsemixer --change-volume +10
+#Vol Down
+XF86AudioLowerVolume 
+ pulsemixer --change-volume -10
+#htop (task man)
+F1 
+ st htop
+#firefox
+Super_L + W
+ firefox
+ 
